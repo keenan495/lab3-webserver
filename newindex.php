@@ -1,0 +1,133 @@
+<!DOCTYPE html> 
+<html> 
+
+    <title> Page title  </title> 
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="<link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">">
+            <!--<div style="border: 1px solid black">testing page version2</div> --> 
+
+    <body>
+            <style>   
+
+                    body
+                        {
+                              background-color: lightblue;
+                        }
+                </style>
+        <h2>Awesome Dinosaur page working in progress v2  
+            <br/>
+             <span style="border: 1px solid black">Welcome to Keenan's Dino page</span>
+        </h2>
+       
+               Give your favorite dinosaur:
+                <input type="text" name="dinosaur"/>
+                <br/>
+                <br/>
+              What is a dinosaur? : 
+              Dinosaurs are a diverse group of reptiles of the clade Dinosauria. 
+              They first appeared during the Triassic period, between 243 and 233.23 million years ago, 
+              although the exact origin and timing of the evolution of dinosaurs is the subject of active research. 
+              They became the dominant terrestrial vertebrates after the Triassic–Jurassic extinction event 201 million years ago. </br>
+         <form>
+        {
+            <span style="border: 1px solid rgb(141, 16, 16)">Here of my favorite options:</span>
+            <ol>
+                <li>t-rex</li>
+                <li>velociraptor</li>
+                <li>triceratops</li>
+                <li>steg</li>
+            </ol>
+            <br/>
+
+        Quiz: Lets see if you know your dinosaurs: 
+        <Label For="big_dino"> Please pick which dinosaur is the largest in mass? </Label>
+            <select id="big_dino">
+                <option value="1">Spinosaur</option>
+                <option value="2">Stegosaurus</option>
+                <option value="3">Argentinosaurus</option>
+                <option value="4">Brachiosaurus</option>
+            </select>
+            
+             <button onclick="setdino(big_dino)">submit</button>
+             <br/>
+             Answer: <p id="ans"> </p>
+             
+             
+                        </br>
+        </form>
+        <script>
+             var select = document.querySelector('select');
+             var para = document.querySelector('p');
+             select.addEventListener('change', setDino);
+                function setdino(select_dino)
+                {
+                  var choice = select.value;
+                   // select_dino = big_dino
+                  //  $("#select_dino").attr("name", dino);
+        
+                     if(choice === "3") 
+                    {
+                        document.getElementById("ans").innerHTML = "correct";
+                        alert('that is correct');
+                    
+                    } 
+                    else 
+                    {
+                        document.getElementById("ans").innerHTML = "FALSE";
+                        alert('incorrect'); 
+                    }
+                
+                    
+                }   
+        </script>
+     
+        
+
+    <!--
+        <span style="border: 2px solid rgb(143, 8, 8)">Info section:  <br/> Dino lists by size:</span>
+                <br/>
+                Small dino: 
+                <ol>
+                    <li>
+                      <div style="float: left;"><IMG SRC="https://vignette.wikia.nocookie.net/jurassicpark/images/9/9f/071cbb66abeb01ef8ae15464cfecf224.png/revision/latest?cb=20180709071807"width=200 height 200 <br/> Compsognathus  </div>
+                     <!-- <img src= "https://vignette.wikia.nocookie.net/jurassicpark/images/9/9f/071cbb66abeb01ef8ae15464cfecf224.png/revision/latest?cb=20180709071807" width=200 height=100>
+
+
+                    </li>
+                </ol>
+                <input type="text" name="dino"/>
+                <br/>
+                <input type="radio" id="velociraptor"
+                name="drone" value="velociraptor"
+                check>
+                <label for="velociraptor""> velociraptor"</label>
+       
+
+         <form>
+         BIG carnivor:
+        <br/>
+         <input type="radio" id="t-rex"
+         name="drone" value="t-rex1"
+         check>
+         <label for="t-rex"> t-rex</label>
+     </form>  
+
+    </body>
+    
+  
+    <form>
+        small carnivor:
+        <br/>
+        Give your favorite dinosaur:
+        <input type="text" name="dino"/>
+        <br/>
+        <input type="radio" id="velociraptor"
+        name="drone" value="velociraptor"
+        check>
+        <label for="velociraptor""> velociraptor"</label>
+    </form>  
+       
+  <!--  <img src= "https://images-na.ssl-images-amazon.com/images/I/71Z7ATk4CIL._SL1500_.jpg" width=500 height=500> -->
+-->
+</body>
+</html>
