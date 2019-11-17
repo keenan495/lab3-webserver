@@ -93,51 +93,6 @@
                 }   
         </script>
      
-        
-
-    <!--
-        <span style="border: 2px solid rgb(143, 8, 8)">Info section:  <br/> Dino lists by size:</span>
-                <br/>
-                Small dino: 
-                <ol>
-                    <li>
-                      <div style="float: left;"><IMG SRC="https://vignette.wikia.nocookie.net/jurassicpark/images/9/9f/071cbb66abeb01ef8ae15464cfecf224.png/revision/latest?cb=20180709071807"width=200 height 200 <br/> Compsognathus  </div>
-                     <!-- <img src= "https://vignette.wikia.nocookie.net/jurassicpark/images/9/9f/071cbb66abeb01ef8ae15464cfecf224.png/revision/latest?cb=20180709071807" width=200 height=100>
-
-
-                    </li>
-                </ol>
-                <input type="text" name="dino"/>
-                <br/>
-                <input type="radio" id="velociraptor"
-                name="drone" value="velociraptor"
-                check>
-                <label for="velociraptor""> velociraptor"</label>
-       
-
-         <form>
-         BIG carnivor:
-        <br/>
-         <input type="radio" id="t-rex"
-         name="drone" value="t-rex1"
-         check>
-         <label for="t-rex"> t-rex</label>
-     </form>  
-
-    </body>
-    
-  
-    <form>
-        small carnivor:
-        <br/>
-        Give your favorite dinosaur:
-        <input type="text" name="dino"/>
-        <br/>
-        <input type="radio" id="velociraptor"
-        name="drone" value="velociraptor"
-        check>
-        <label for="velociraptor""> velociraptor"</label>
-    </form>  
        
   <!--  <img src= "https://images-na.ssl-images-amazon.com/images/I/71Z7ATk4CIL._SL1500_.jpg" width=500 height=500> -->
 </body>
