@@ -48,12 +48,24 @@
                 <option value="4">Brachiosaurus</option>
             </select>
             
-             <button onclick="setdino(big_dino)">submit</button>
-             <br/>
-             Answer: <p id="ans"> </p>
-             
-             
-                        </br>
+        <button onclick="setdino(big_dino)">submit</button>
+        <br/>
+        Answer: <p id="ans"> </p>
+        /br>
+
+        <h2>  PHP lab 9 section </h2>
+        <Label For="big_dino"> Please pick which dinosaur is the largest in mass? </Label>
+            <select id="big_dino">
+                <option value="1">Spinosaur</option>
+                <option value="2">Stegosaurus</option>
+                <option value="3">Argentinosaurus</option>
+                <option value="4">Brachiosaurus</option>
+            </select>
+        
+        
+      
+      
+      
         </form>
         <script>
              var select = document.querySelector('select');
@@ -128,6 +140,5 @@
     </form>  
        
   <!--  <img src= "https://images-na.ssl-images-amazon.com/images/I/71Z7ATk4CIL._SL1500_.jpg" width=500 height=500> -->
--->
 </body>
 </html>
