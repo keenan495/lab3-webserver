@@ -3,19 +3,17 @@
 
     <title> Page title  </title> 
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="<link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">">
-            <!--<div style="border: 1px solid black">testing page version2</div> --> 
+ <!--   <link rel="stylesheet" href="<link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">">
+         <div style="border: 1px solid black">testing page version2</div> --> 
 
     <body>
             <style>   
-
-                    body
-                        {
-                              background-color: lightblue;
-                        }
-                </style>
-        <h2>Awesome Dinosaur page working in progress v2  
-            <br/>
+            {
+                background-color: lightblue;
+            }
+            </style>
+        <h2> Awesome Dinosaur page working in progress v2  
+        <br/>
              <span style="border: 1px solid black">Welcome to Keenan's Dino page</span>
         </h2>
        
@@ -27,7 +25,8 @@
               Dinosaurs are a diverse group of reptiles of the clade Dinosauria. 
               They first appeared during the Triassic period, between 243 and 233.23 million years ago, 
               although the exact origin and timing of the evolution of dinosaurs is the subject of active research. 
-              They became the dominant terrestrial vertebrates after the Triassic–Jurassic extinction event 201 million years ago. </br>
+              They became the dominant terrestrial vertebrates after the Triassic–Jurassic extinction event 201 million years ago. 
+            <br/>
          <form>
         {
             <span style="border: 1px solid rgb(141, 16, 16)">Here of my favorite options:</span>
@@ -67,21 +66,21 @@
             $color = "black";
             <button onclick="phpscript(small_dino)">submit</button>
 
-        function  phpscript(smalldino)
+    <!--  function  phpscript(smalldino)
         {
           if ( $small_dinos == '2' )
           {
-            alert('that is correct')
+            alert('that is correct');
           }
 
           else
           {
-            alert('that is incorrect') 
+            alert('that is incorrect') ;
           }
 
 
         }
-
+    -->
         ?> 
       
         </form>
