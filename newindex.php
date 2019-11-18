@@ -54,17 +54,35 @@
         /br>
 
         <h2>  PHP lab 9 section </h2>
-        <Label For="big_dino"> Please pick which dinosaur is the largest in mass? </Label>
-            <select id="big_dino">
+
+        <?php 
+        <Label For="small_dino"> Please pick which dinosaur is the smallest in mass? </Label>
+            <select id="small_dino">
                 <option value="1">Spinosaur</option>
                 <option value="2">Stegosaurus</option>
                 <option value="3">Argentinosaurus</option>
                 <option value="4">Brachiosaurus</option>
             </select>
-        
-        
-      
-      
+            echo '<p>Resuts <php> </p>'; 
+            $color = "black";
+            <button onclick="phpscript(small_dino)">submit</button>
+
+        function  phpscript(smalldino)
+        {
+          if ( $small_dinos == '2' )
+          {
+            alert('that is correct')
+          }
+
+          else
+          {
+            alert('that is incorrect') 
+          }
+
+
+        }
+
+        ?> 
       
         </form>
         <script>
