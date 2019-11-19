@@ -55,8 +55,8 @@
 
         <h2>  PHP lab 9 section </h2>
         <?php 
-            echo '<p>Resuts php </p>';
-            echo '<p>Resuts php </p>'; 
+            echo '<p>Resuts php1 </p>';
+            echo '<p>Resuts php2 </p>'; 
             $color = "black";
         ?> 
  <Label For="small_dino"> Please pick which dinosaur is the largest in mass? </Label>
@@ -66,22 +66,21 @@
                 <option value="3">Argentinosaurus</option>
                 <option value="4">Brachiosaurus</option>
             </select>
-    <button onclick="setsmalldino(small_dino)">submit</button>
+   <!-- <button onclick="setsmalldino(small_dino)">submit</button>-->
     <?php 
-           $an1=$small_dino;
-            echo '<p>Resuts php </p>'; 
+          (int)$_POST['small_dino'];
+            echo '<p>Resuts php 3</p>'; 
             $color = "black";
             if ($ans1 == "2")
             {
                 alert('yoyoyoy');
             }
-
             else
             {
                 alert('brooooo');
             }
             
-            ?> 
+        ?> 
       
         </form>
         <script>
