@@ -91,7 +91,7 @@
                     } 
                     else 
                     {
-                        document.getElementById("ans").innerHTML = "FALSE";
+                        document.getElementById("ans").innerHTML = $choice;
                         alert('incorrect'); 
                     }                
                     
@@ -106,15 +106,15 @@
         
                     if(choice1 == "2") 
                     {
-                        document.getElementById("ans").innerHTML = "correct";
+                        document.getElementById("ans").innerHTML = $choice1;
                         alert('that is correct');
                     } 
                     else 
                     {
-                        document.getElementById("ans").innerHTML = "FALSE";
+                        document.getElementById("ans").innerHTML = $choice1;
                         alert('incorrect'); 
                     }    
-                    document.getElementById("choiceSelected") = choice1;
+                    document.getElementById("choiceSelected") = $choice1;
             
                     
                 }  
