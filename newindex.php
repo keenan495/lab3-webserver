@@ -67,7 +67,11 @@
                 <option value="4">Brachiosaurus</option>
             </select>
     <button onclick="setsmalldino(small_dino)">submit</button>
-
+    <?php 
+            echo '<p>Resuts php </p>';
+            echo '<p>Resuts php </p>'; 
+            $color = "black";
+        ?> 
       
         </form>
         <script>
