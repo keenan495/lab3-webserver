@@ -96,6 +96,8 @@
                 function setsmalldino(small_dino)
                 {
                   var choice1 = select.value;
+                  document.getElementById("choiceSelected") = choice1;
+
                    // select_dino = big_dino
                   //  $("#select_dino").attr("name", dino);
         
