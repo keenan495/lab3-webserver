@@ -55,6 +55,7 @@
 
         <h2>  PHP lab 9 section </h2>
         <?php 
+            echo '<p>Resuts php </p>';
             echo '<p>Resuts php </p>'; 
             $color = "black";
         ?> 
