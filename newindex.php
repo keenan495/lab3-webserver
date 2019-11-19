@@ -7,7 +7,8 @@
          <div style="border: 1px solid black">testing page version2</div> --> 
 
     <body>
-            <style>   
+            <style> 
+            body  
             {
                 background-color: lightblue;
             }
@@ -50,22 +51,12 @@
         <button onclick="setdino(big_dino)">submit</button>
         <br/>
         Answer: <p id="ans"> </p>
-        /br>
+        <br/>
 
         <h2>  PHP lab 9 section </h2>
-
-        <Label For="small_dino"> Please pick which dinosaur is the smallest in mass? </Label>
-            <select id="small_dino">
-                <option value="1">Spinosaur</option>
-                <option value="2">Stegosaurus</option>
-                <option value="3">Argentinosaurus</option>
-                <option value="4">Brachiosaurus</option>
-            </select>
         <?php 
             echo '<p>Resuts php </p>'; 
             $color = "black";
-            <button onclick="phpscript(small_dino)">submit</button>
-    
         ?> 
       
         </form>
@@ -90,22 +81,9 @@
                         alert('incorrect'); 
                     }                
                     
-                }   
-                function  phpscript(smalldino)
-                {
-                  if ( $small_dinos == '2' )
-                  {
-                    alert('that is correct');
-                  }
-                  else
-                  {
-                    alert('that is incorrect') ;
-                  }
-        
-        
-                }
+                }  
+                
         </script>
-     
        
   <!--  <img src= "https://images-na.ssl-images-amazon.com/images/I/71Z7ATk4CIL._SL1500_.jpg" width=500 height=500> -->
 </body>
