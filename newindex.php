@@ -100,7 +100,7 @@
                    // select_dino = big_dino
                   //  $("#select_dino").attr("name", dino);
         
-                    if(choice1 === "1") 
+                    if(choice1 === "2") 
                     {
                         document.getElementById("ans").innerHTML = "correct";
                         alert('that is correct');
