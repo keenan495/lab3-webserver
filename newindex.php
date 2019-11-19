@@ -58,6 +58,15 @@
             echo '<p>Resuts php </p>'; 
             $color = "black";
         ?> 
+ <Label For="big_dino"> Please pick which dinosaur is the largest in mass? </Label>
+            <select id="big_dino">
+                <option value="1">Spinosaur</option>
+                <option value="2">Stegosaurus</option>
+                <option value="3">Argentinosaurus</option>
+                <option value="4">Brachiosaurus</option>
+            </select>
+    <button onclick="setsmalldino(small_dino)">submit</button>
+
       
         </form>
         <script>
@@ -71,6 +80,25 @@
                   //  $("#select_dino").attr("name", dino);
         
                     if(choice === "3") 
+                    {
+                        document.getElementById("ans").innerHTML = "correct";
+                        alert('that is correct');
+                    } 
+                    else 
+                    {
+                        document.getElementById("ans").innerHTML = "FALSE";
+                        alert('incorrect'); 
+                    }                
+                    
+                }  
+
+                function setsmalldino(selectsmall_dino)
+                {
+                  var choice = select.value;
+                   // select_dino = big_dino
+                  //  $("#select_dino").attr("name", dino);
+        
+                    if(choice === "2") 
                     {
                         document.getElementById("ans").innerHTML = "correct";
                         alert('that is correct');
