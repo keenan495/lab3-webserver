@@ -68,10 +68,20 @@
             </select>
     <button onclick="setsmalldino(small_dino)">submit</button>
     <?php 
-            echo '<p>Resuts php </p>';
+           $an1=$small_dino;
             echo '<p>Resuts php </p>'; 
             $color = "black";
-        ?> 
+            if ($ans1 == "2")
+            {
+                alert('yoyoyoy');
+            }
+
+            else
+            {
+                alert('brooooo');
+            }
+            
+            ?> 
       
         </form>
         <script>
