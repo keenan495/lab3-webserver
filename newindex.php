@@ -92,13 +92,13 @@
                     
                 }  
                 select.addEventListener('change', setsmallDino);
-                function setsmalldino(selectsmall_dino)
+                function setsmalldino(small_dino)
                 {
-                  var choice = select.value;
+                  var choice1 = select.value;
                    // select_dino = big_dino
                   //  $("#select_dino").attr("name", dino);
         
-                    if(choice === "2") 
+                    if(choice1 === "2") 
                     {
                         document.getElementById("ans").innerHTML = "correct";
                         alert('that is correct');
