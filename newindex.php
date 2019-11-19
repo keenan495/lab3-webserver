@@ -87,7 +87,8 @@
              var select = document.querySelector('select');
              var para = document.querySelector('p');
              select.addEventListener('change', setDino);
-                function setdino(select_dino)
+                
+             function setdino(select_dino)
                 {
                   var choice = select.value;
                    // select_dino = big_dino
@@ -100,12 +101,12 @@
                     } 
                     else 
                     {
-                        document.getElementById("ans").innerHTML = $choice;
+                        document.getElementById("ans").innerHTML = "false";
                         alert('incorrect'); 
                     }                
                     
                 }  
-                select.addEventListener('change', setsmallDino);
+                select.addEventListener('change1', setsmallDino);
                 function setsmalldino(small_dino)
                 {
                   var choice1 = select.value;
@@ -115,15 +116,15 @@
         
                     if(choice1 == "2") 
                     {
-                        document.getElementById("ans").innerHTML = $choice1;
+                        document.getElementById("ans").innerHTML = "correct";
                         alert('that is correct');
                     } 
                     else 
                     {
-                        document.getElementById("ans").innerHTML = $choice1;
+                        document.getElementById("ans").innerHTML = "false";
                         alert('incorrect'); 
                     }    
-                    document.getElementById("choiceSelected") = $choice1;
+                  //  document.getElementById("choiceSelected") = $choice1;
             
                     
                 }  
