@@ -58,8 +58,8 @@
             echo '<p>Resuts php </p>'; 
             $color = "black";
         ?> 
- <Label For="big_dino"> Please pick which dinosaur is the largest in mass? </Label>
-            <select id="big_dino">
+ <Label For="small_dino"> Please pick which dinosaur is the largest in mass? </Label>
+            <select id="small_dino">
                 <option value="1">Spinosaur</option>
                 <option value="2">Stegosaurus</option>
                 <option value="3">Argentinosaurus</option>
