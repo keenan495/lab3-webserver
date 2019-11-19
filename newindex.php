@@ -91,7 +91,7 @@
                     }                
                     
                 }  
-
+                select.addEventListener('change', setsmallDino);
                 function setsmalldino(selectsmall_dino)
                 {
                   var choice = select.value;
