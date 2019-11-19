@@ -80,7 +80,7 @@
                    // select_dino = big_dino
                   //  $("#select_dino").attr("name", dino);
         
-                    if(choice === "3") 
+                    if(choice == "3") 
                     {
                         document.getElementById("ans").innerHTML = "correct";
                         alert('that is correct');
@@ -100,7 +100,7 @@
                    // select_dino = big_dino
                   //  $("#select_dino").attr("name", dino);
         
-                    if(choice1 === "2") 
+                    if(choice1 == "2") 
                     {
                         document.getElementById("ans").innerHTML = "correct";
                         alert('that is correct');
