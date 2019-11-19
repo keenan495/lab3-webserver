@@ -69,18 +69,7 @@
    <button onclick=
     <?php 
           (int)$_POST['small_dino'];
-            echo '<p>Resuts php 3</p>'; 
-            $color = "black";
-           //if ($ans1 == "2")
-          //  {
-        //        alert('yoyoyoy');
-         //   }
-         //   else
-          //  {
-          //      alert('brooooo');
-         //   }
-            
-        ?> >submit</button>
+    ?> >submit</button>
       
         </form>
         <script>
