@@ -66,7 +66,8 @@
                 <option value="3">Argentinosaurus</option>
                 <option value="4">Brachiosaurus</option>
             </select>
-   <button onclick=
+   <button onclick="setsmalldino(small_dino)">submit</button>
+   dino: <p id="ans1"> </p>
     <?php 
           (int)$_POST['small_dino'];
     ?> >submit</button>
@@ -98,19 +99,19 @@
                 select.addEventListener('change1', setsmallDino);
                 function setsmalldino(small_dino)
                 {
-                  var choice1 = select.value;
-                  
+                 // var choice1 = select.value;
+                  var choice1 = document.getElementById("small_dino")                  
                    // select_dino = big_dino
                   //  $("#select_dino").attr("name", dino);
         
                     if(choice1 == "2") 
                     {
-                        document.getElementById("ans").innerHTML = "correct";
+                        document.getElementById("ans1").innerHTML = $choice1;
                         alert('that is correct');
                     } 
                     else 
                     {
-                        document.getElementById("ans").innerHTML = "false";
+                        document.getElementById("ans1").innerHTML = "false";
                         alert('incorrect'); 
                     }    
                   //  document.getElementById("choiceSelected") = $choice1;
