@@ -66,7 +66,7 @@
                 <option value="3">Argentinosaurus</option>
                 <option value="4">Brachiosaurus</option>
             </select>
-   <!-- <button onclick="setsmalldino(small_dino)">submit</button>-->
+   <button onclick=
     <?php 
           (int)$_POST['small_dino'];
             echo '<p>Resuts php 3</p>'; 
@@ -80,7 +80,7 @@
           //      alert('brooooo');
          //   }
             
-        ?> 
+        ?> >submit</button>
       
         </form>
         <script>
