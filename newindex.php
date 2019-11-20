@@ -71,7 +71,7 @@
     <?php 
         if(isset($_POST['small_dino']))
           echo (int)$_POST['small_dino'];
-          else 
+        else 
           echo '<p> Fuck </p>'
     ?>
       
@@ -105,6 +105,7 @@
                 }  
                 select.addEventListener('change1', setsmallDino);
                 document.getElementById("ans2").innerHTML= try2
+               
                 function setsmalldino(small_dino)
                 {
                   var choice1 = select.value;
@@ -117,7 +118,7 @@
                     } 
                     else 
                     {
-                        document.getElementById("ans1").innerHTML = "false";
+                        document.getElementById("ans1").innerHTML = $choice1;
                         alert('incorrect'); 
                     }    
                     document.getElementById("choiceSelected") = $choice1;
