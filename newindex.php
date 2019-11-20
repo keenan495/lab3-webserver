@@ -61,10 +61,18 @@
         <input type="text" name="FAVdino2"/>
         <br/>-->
       <form action="Myoption1.php" method="get">
-      Fav Dino: <input type="test" name="id"> 
+      Fav Dino: <input type="test" name="d1"> 
+      <br/>
+      Fav dino #2:<input type="test" name="d2"> 
         <input type="submit" value="enter">
         </form>
    <br/>
+  
+  <?php
+                $fd1 = htmlspecialchars($_POST['d1']);
+                $fd2= htmlspecialchars($_POST['d2']);
+              
+    ?>
 
    <Label For="small_dino"> Please pick which dinosaur is the smallest in mass? </Label>
             <select id="small_dino">
@@ -87,8 +95,9 @@
         <?php 
             echo '<p>Resuts php1 </p>';
             $color = "black";
+            echo 'so the $fd1 is your favorite and $fd2 is your second favorite'
         ?> 
-
+        
 
         </form>
         <script>
