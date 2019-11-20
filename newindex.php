@@ -67,6 +67,7 @@
                 <option value="4">Brachiosaurus</option>
             </select>
    <button onclick="setsmalldino(small_dino)">submit</button>
+   <br/>
    dino: <p id="ans1"> </p>
     <?php 
         if(isset($_POST['small_dino']))
@@ -113,15 +114,15 @@
                     
                     if(choice1 == "2") 
                     {
-                        document.getElementById("ans1").innerHTML = $choice1;
+                        document.getElementById("ans1").innerHTML = choice1;
                         alert('that is correct');
                     } 
                     else 
                     {
-                        document.getElementById("ans1").innerHTML = $choice1;
+                        document.getElementById("ans1").innerHTML = choice1;
                         alert('incorrect'); 
                     }    
-                    document.getElementById("choiceSelected") = $choice1;
+                    document.getElementById("choiceSelected") = choice1;
             
                     
                 }  
