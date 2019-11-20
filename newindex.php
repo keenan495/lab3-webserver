@@ -48,6 +48,7 @@
             
         <button onclick="setdino(big_dino)">submit</button>
         <br/>
+       
         Answer: <p id="ans"> </p>
         <br/>
 
@@ -59,17 +60,13 @@
         <input type="text" name="FAVdino2"/>
         <br/>
         <button onclick= 
-        <?php 
-            echo '<p>Resuts php1 </p>';
-            echo '<p>Resuts php2 </p>';
+        "<?php 
             $favdino2 = htmlspecialchars($_POST['FAVdino2']);
             $favdino1 = htmlspecialchars($_POST['FAVdino1']); 
             $color = "black";
             echo "$favdino2 is very common dinosaur";
             echo "$favdino1 is terrible choice";
-        ?> 
-        >submit</button>  
-    
+        ?>">submit</button>  
    <br/>
 
    <Label For="small_dino"> Please pick which dinosaur is the smallest in mass? </Label>
@@ -81,6 +78,7 @@
             </select>
    <button onclick="setsmalldino(small_dino)">submit</button>
    <br/>
+   
    dino: <p id="ans1"> </p>
    
       
