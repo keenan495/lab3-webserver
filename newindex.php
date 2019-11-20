@@ -78,10 +78,10 @@
         </form>
         <script>
              var select = document.querySelector('select');
-             var para = document.querySelector('p');
+             //var para = document.querySelector('p');
              select.addEventListener('change', setDino);
              
-             var select1 = document.querySelector('small_dino')
+             var select1 = document.querySelector('select')
              select1.addEventListener('change', setsmallDino);
                 
              function setdino(select_dino)
