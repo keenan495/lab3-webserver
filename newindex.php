@@ -68,9 +68,9 @@
         </form>
    <br/>
   
- your  Favorite dino is: <?php echo
-               $_POST["d1"]; 
-                 and $fd2= htmlspecialchars($_POST["d2"]);?>
+ your Favorite dino is: 
+            <?php echo $_POST["d1"]; ?> and
+            <?php echo $_POST["d2"]);?>
 
 <br/> 
 
