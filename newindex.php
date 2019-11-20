@@ -60,7 +60,7 @@
         <br/>
         <input type="text" name="FAVdino2"/>
         <br/>-->
-      <form action="Myoption1.php" method="get">
+      <form action="newindex.php" method="get">
       Fav Dino: <input type="test" name="d1"> 
       <br/>
       Fav dino #2:<input type="test" name="d2"> 
