@@ -60,7 +60,7 @@
             $color = "black";
         ?> 
  <Label For="small_dino"> Please pick which dinosaur is the smallest in mass? </Label>
-            <select name="smdino" id="small_dino">
+            <select id="small_dino">
                 <option value="1">Spinosaur</option>
                 <option value="2">Stegosaurus</option>
                 <option value="3">Argentinosaurus</option>
