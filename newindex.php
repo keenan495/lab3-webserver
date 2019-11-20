@@ -66,7 +66,7 @@
                 <option value="3">Argentinosaurus</option>
                 <option value="4">Brachiosaurus</option>
             </select>
-   <button onclick="setsmalldino(sm_dino)">submit</button>
+   <button onclick="setsmalldino(small_dino)">submit</button>
    <br/>
    dino: <p id="ans1"> </p>
    
@@ -87,9 +87,7 @@
              function setdino(select_dino)
                 {
                   var choice = select.value;
-                   // select_dino = big_dino
-                  //  $("#select_dino").attr("name", dino);
-        
+                          
                     if(choice == "3") 
                     {
                         document.getElementById("ans").innerHTML = "correct";
@@ -107,9 +105,8 @@
                 function setsmalldino(small_dino)
                 {
                   var choice1 = select1.value;
-                  //var choice1 = document.getElementById("small_dino")                  
-                    
-                    if(choice1 == "2") 
+                              
+                  if(choice1 == "2") 
                     {
                         document.getElementById("ans1").innerHTML = choice1;
                         alert('that is correct');
