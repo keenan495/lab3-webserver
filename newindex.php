@@ -65,8 +65,8 @@
             $favdino2 = htmlspecialchars($_POST['FAVdino2']);
             $favdino1 = htmlspecialchars($_POST['FAVdino1']); 
             $color = "black";
-            echo $favdino2 is very common dinosaur;
-            echo $favdino1 is terrible choice;
+            echo "$favdino2 is very common dinosaur";
+            echo "$favdino1 is terrible choice";
         ?> 
         >submit</button>  
     
