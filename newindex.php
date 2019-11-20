@@ -81,8 +81,8 @@
              //var para = document.querySelector('p');
              select.addEventListener('change', setDino);
              
-             var select1 = document.querySelector("#small_dino")
-             select1.addEventListener('change', setsmallDino);
+             var selection = document.querySelector("#small_dino")
+             select1.addEventListener('change', setsmalldino);
                 
              function setdino(select_dino)
                 {
@@ -104,7 +104,8 @@
                
                 function setsmalldino(small_dino)
                 {
-                  var choice1 = select1.value;
+                  var choice1 = selection;
+                  document.getElementById("ans3").innerHTML = choice1;
                               
                   if(choice1 == "2") 
                     {
