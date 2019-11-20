@@ -76,6 +76,9 @@
     ?>
       
       <p id="ans2"> </p>
+        <br/>
+        <p id="choiceSelected"> </p>
+
         </form>
         <script>
              var select = document.querySelector('select');
@@ -117,7 +120,7 @@
                         document.getElementById("ans1").innerHTML = "false";
                         alert('incorrect'); 
                     }    
-                  //  document.getElementById("choiceSelected") = $choice1;
+                    document.getElementById("choiceSelected") = $choice1;
             
                     
                 }  
