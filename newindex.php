@@ -89,11 +89,11 @@
 
         </form>
         <script>
-             var select = document.querySelector('select');
+             var select = document.querySelector('#big_dino');
              //var para = document.querySelector('p');
              select.addEventListener('change', setDino);
              
-             var select1 = document.querySelector('small_dino')
+             var select1 = document.querySelector('#small_dino')
              select.addEventListener('change', setsmalldino);
                 
              function setdino(select_dino)
