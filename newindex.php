@@ -82,7 +82,7 @@
              select.addEventListener('change', setDino);
              
              var select1 = document.querySelector('small_dino')
-             select.addEventListener('change1', setsmallDino);
+             select1.addEventListener('change', setsmallDino);
                 
              function setdino(select_dino)
                 {
@@ -102,12 +102,11 @@
                     }                
                     
                 }  
-                
                 document.getElementById("ans2").innerHTML= try2
                
                 function setsmalldino(small_dino)
                 {
-                  var choice1 = small_dino;
+                  var choice1 = select1.value;
                   //var choice1 = document.getElementById("small_dino")                  
                     
                     if(choice1 == "2") 
