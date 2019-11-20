@@ -16,17 +16,7 @@
         <h2> Awesome Dinosaur page working in progress v2  
         <br/>
              <span style="border: 1px solid black">Welcome to Keenan's Dino page</span>
-        </h2>
-       
-               Give your favorite dinosaur:
-                <input type="text" name="FAVdino"/>
-
-        <?php 
-            echo '<p> TESTING </p>'; 
-            $color = "black";
-            wget(FAVdino, Name);
-
-        ?> 
+        </h2>   
                 <br/>
                 <br/>
               What is a dinosaur? : 
