@@ -68,11 +68,11 @@
         </form>
    <br/>
   
-  <?php
-                $fd1 = htmlspecialchars($_POST['d1']);
-                $fd2= htmlspecialchars($_POST['d2']);
-              
-    ?>
+ your  Favorite dino is: <?phpecho
+                $fd1 = htmlspecialchars($_POST["d1"]);
+                $fd2= htmlspecialchars($_POST["d2"]);?>
+
+<br/> 
 
    <Label For="small_dino"> Please pick which dinosaur is the smallest in mass? </Label>
             <select id="small_dino">
