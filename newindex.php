@@ -117,7 +117,7 @@
                     } 
                     else 
                     {
-                        document.getElementById("ans3").innerHTML = choice1;
+                        document.getElementById("ans3").innerHTML = $choice1;
                         alert('incorrect'); 
                     }    
                     document.getElementById("choiceSelected") = "choice1";
