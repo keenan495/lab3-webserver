@@ -60,13 +60,13 @@
             $color = "black";
         ?> 
  <Label For="small_dino"> Please pick which dinosaur is the smallest in mass? </Label>
-            <select id="small_dino">
+            <select name="smdino" id="small_dino">
                 <option value="1">Spinosaur</option>
                 <option value="2">Stegosaurus</option>
                 <option value="3">Argentinosaurus</option>
                 <option value="4">Brachiosaurus</option>
             </select>
-   <button onclick="setsmalldino(small_dino)">submit</button>
+   <button onclick="setsmalldino(sm_dino)">submit</button>
    <br/>
    dino: <p id="ans1"> </p>
    
@@ -107,7 +107,7 @@
                
                 function setsmalldino(small_dino)
                 {
-                  var choice1 = select1.value;
+                  var choice1 = small_dino.value;
                   //var choice1 = document.getElementById("small_dino")                  
                     
                     if(choice1 == "2") 
@@ -120,7 +120,7 @@
                         document.getElementById("ans1").innerHTML = choice1;
                         alert('incorrect'); 
                     }    
-                    document.getElementById("choiceSelected") = choice1;
+                 //   document.getElementById("choiceSelected") = choice1;
                             
                 }  
                     document.getElementById("ans2").innerHTML= try2
