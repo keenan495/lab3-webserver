@@ -16,7 +16,8 @@
         <h2> Awesome Dinosaur page working in progress v2  
         <br/>
              <span style="border: 1px solid black">Welcome to Keenan's Dino page</span>
-        </h2>   
+        </h2>
+   
                 <br/>
                 <br/>
               What is a dinosaur? : 
@@ -57,17 +58,18 @@
         <br/>
         <input type="text" name="FAVdino2"/>
   
+        <button onclick=>submit</button>  
         <?php 
             echo '<p>Resuts php1 </p>';
             echo '<p>Resuts php2 </p>'
             $favdino2 = htmlspecialchars($_POST['FAVdino2']);
             $favdino1 = htmlspecialchars($_POST['FAVdino1']); 
             $color = "black";
-
             echo $favdino2 is very common dinosaur
             echo $favdino1 is terrible choice
-
         ?> 
+        >submit</button>  
+    
    <br/>
 
    <Label For="small_dino"> Please pick which dinosaur is the smallest in mass? </Label>
