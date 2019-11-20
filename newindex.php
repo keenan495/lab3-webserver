@@ -107,7 +107,7 @@
                
                 function setsmalldino(small_dino)
                 {
-                  var choice1 = small_dino.value;
+                  var choice1 = small_dino;
                   //var choice1 = document.getElementById("small_dino")                  
                     
                     if(choice1 == "2") 
@@ -120,7 +120,7 @@
                         document.getElementById("ans1").innerHTML = choice1;
                         alert('incorrect'); 
                     }    
-                 //   document.getElementById("choiceSelected") = choice1;
+                    document.getElementById("choiceSelected") = choice1;
                             
                 }  
                     document.getElementById("ans2").innerHTML= try2
