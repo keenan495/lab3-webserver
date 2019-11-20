@@ -74,6 +74,9 @@
       <p id="ans2"> </p>
         <br/>
         <p id="choiceSelected"> </p>
+        <br/>
+        <p id="ans3"> </p>
+        <br/>
 
         </form>
         <script>
@@ -81,8 +84,8 @@
              //var para = document.querySelector('p');
              select.addEventListener('change', setDino);
              
-             var selection = document.querySelector("#small_dino")
-             select1.addEventListener('change', setsmalldino);
+             var select1 = document.querySelector("#small_dino")
+             select.addEventListener('change', setsmalldino);
                 
              function setdino(select_dino)
                 {
@@ -104,7 +107,7 @@
                
                 function setsmalldino(small_dino)
                 {
-                  var choice1 = selection;
+                  var choice1 = select1;
                   document.getElementById("ans3").innerHTML = choice1;
                               
                   if(choice1 == "2") 
@@ -114,13 +117,12 @@
                     } 
                     else 
                     {
-                        document.getElementById("ans1").innerHTML = choice1;
+                        document.getElementById("ans3").innerHTML = choice1;
                         alert('incorrect'); 
                     }    
-                    document.getElementById("choiceSelected") = choice1;
+                    document.getElementById("choiceSelected") = "choice1";
                             
-                }  
-                    document.getElementById("ans2").innerHTML= try2
+                } 
         </script>
        
   <!--  <img src= "https://images-na.ssl-images-amazon.com/images/I/71Z7ATk4CIL._SL1500_.jpg" width=500 height=500> -->
