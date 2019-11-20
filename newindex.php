@@ -69,7 +69,7 @@
    <button onclick="setsmalldino(small_dino)">submit</button>
    dino: <p id="ans1"> </p>
     <?php 
-        if(isset($_POST['small_dino'])
+        if(isset($_POST['small_dino']))
           echo (int)$_POST['small_dino'];
           else 
           echo '<p> Fuck </p>'
