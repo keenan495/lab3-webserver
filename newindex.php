@@ -70,7 +70,7 @@
   
  your Favorite dino is: 
             <?php echo $_POST["d1"]; ?> and
-            <?php echo $_POST["d2"]);?>
+            <?php echo $_POST["d2"];?>
 
 <br/> 
 
