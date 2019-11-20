@@ -57,8 +57,8 @@
         <input type="text" name="FAVdino1"/>
         <br/>
         <input type="text" name="FAVdino2"/>
-  
-        <button onclick=>submit</button>  
+        <br/>
+        <button onclick= 
         <?php 
             echo '<p>Resuts php1 </p>';
             echo '<p>Resuts php2 </p>';
