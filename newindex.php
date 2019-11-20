@@ -59,7 +59,7 @@
             echo '<p>Resuts php2 </p>'; 
             $color = "black";
         ?> 
- <Label For="small_dino"> Please pick which dinosaur is the largest in mass? </Label>
+ <Label For="small_dino"> Please pick which dinosaur is the smallest in mass? </Label>
             <select id="small_dino">
                 <option value="1">Spinosaur</option>
                 <option value="2">Stegosaurus</option>
@@ -69,9 +69,13 @@
    <button onclick="setsmalldino(small_dino)">submit</button>
    dino: <p id="ans1"> </p>
     <?php 
-          (int)$_POST['small_dino'];
-    ?> >submit</button>
+        if(isset($_POST['small_dino'])
+          echo (int)$_POST['small_dino'];
+          else 
+          echo '<p> Fuck </p>'
+    ?>
       
+      <p id="ans2"> </p>
         </form>
         <script>
              var select = document.querySelector('select');
@@ -97,13 +101,12 @@
                     
                 }  
                 select.addEventListener('change1', setsmallDino);
+                document.getElementById("ans2").innerHTML= try2
                 function setsmalldino(small_dino)
                 {
-                 // var choice1 = select.value;
-                  var choice1 = document.getElementById("small_dino")                  
-                   // select_dino = big_dino
-                  //  $("#select_dino").attr("name", dino);
-        
+                  var choice1 = select.value;
+                  //var choice1 = document.getElementById("small_dino")                  
+                    
                     if(choice1 == "2") 
                     {
                         document.getElementById("ans1").innerHTML = $choice1;
