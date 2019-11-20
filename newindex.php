@@ -19,7 +19,14 @@
         </h2>
        
                Give your favorite dinosaur:
-                <input type="text" name="dinosaur"/>
+                <input type="text" name="FAVdino"/>
+
+        <?php 
+            echo '<p> TESTING </p>'; 
+            $color = "black";
+            wget(FAVdino, Name);
+
+        ?> 
                 <br/>
                 <br/>
               What is a dinosaur? : 
@@ -54,12 +61,26 @@
         <br/>
 
         <h2>  PHP lab 9 section </h2>
+        enter a list of favorite dinosaur
+        Give your favorite dinosaur:
+        <input type="text" name="FAVdino1"/>
+        <br/>
+        <input type="text" name="FAVdino2"/>
+  
         <?php 
             echo '<p>Resuts php1 </p>';
-            echo '<p>Resuts php2 </p>'; 
+            echo '<p>Resuts php2 </p>'
+            $favdino2 = htmlspecialchars($_POST['FAVdino2']);
+            $favdino1 = htmlspecialchars($_POST['FAVdino1']); 
             $color = "black";
+
+            echo $favdino2 is very common dinosaur
+            echo $favdino1 is terrible choice
+
         ?> 
- <Label For="small_dino"> Please pick which dinosaur is the smallest in mass? </Label>
+   <br/>
+
+   <Label For="small_dino"> Please pick which dinosaur is the smallest in mass? </Label>
             <select id="small_dino">
                 <option value="1">Spinosaur</option>
                 <option value="2">Stegosaurus</option>
@@ -75,8 +96,14 @@
         <br/>
         <p id="choiceSelected"> </p>
         <br/>
-        <p id="ans3"> </p>
-        <br/>
+        <span style="border: 1px solid rgb(141, 16, 16)">QUIZ: How long ago did they live?</span>
+
+        <?php 
+            echo '<p>Resuts php1 </p>';
+            echo '<p>Resuts php2 </p>'; 
+            $color = "black";
+        ?> 
+
 
         </form>
         <script>
@@ -128,3 +155,5 @@
   <!--  <img src= "https://images-na.ssl-images-amazon.com/images/I/71Z7ATk4CIL._SL1500_.jpg" width=500 height=500> -->
 </body>
 </html>
+
+
