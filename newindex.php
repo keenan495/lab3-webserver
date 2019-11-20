@@ -53,13 +53,17 @@
         <br/>
 
         <h2>  PHP lab 9 section </h2>
-        enter a list of favorite dinosaur
+
         Give your favorite dinosaur:
-        <input type="text" name="FAVdino1"/>
+        <br/>
+       <!-- <input type="text" name="FAVdino1"/>
         <br/>
         <input type="text" name="FAVdino2"/>
-        <br/>
-      <!--  <button onclick=" ">submit</button>  -->  
+        <br/>-->
+      <form action="Myoption1.php" method="get">
+      Fav Dino: <input type="test" name="id"> 
+        <input type="submit" value="enter">
+        </form>
    <br/>
 
    <Label For="small_dino"> Please pick which dinosaur is the smallest in mass? </Label>
