@@ -69,12 +69,7 @@
    <button onclick="setsmalldino(small_dino)">submit</button>
    <br/>
    dino: <p id="ans1"> </p>
-    <?php 
-        if(isset($_POST['small_dino']))
-          echo (int)$_POST['small_dino'];
-        else 
-          echo '<p> Fuck </p>'
-    ?>
+   
       
       <p id="ans2"> </p>
         <br/>
@@ -85,6 +80,9 @@
              var select = document.querySelector('select');
              var para = document.querySelector('p');
              select.addEventListener('change', setDino);
+             
+             var select1 = document.querySelector('small_dino')
+             select.addEventListener('change1', setsmallDino);
                 
              function setdino(select_dino)
                 {
@@ -104,11 +102,8 @@
                     }                
                     
                 }  
-                select.addEventListener('change1', setsmallDino);
                 
                 document.getElementById("ans2").innerHTML= try2
-               
-                var select1 = document.querySelector('small_dino')
                
                 function setsmalldino(small_dino)
                 {
@@ -126,10 +121,9 @@
                         alert('incorrect'); 
                     }    
                     document.getElementById("choiceSelected") = choice1;
-            
-                    
+                            
                 }  
-                
+                    document.getElementById("ans2").innerHTML= try2
         </script>
        
   <!--  <img src= "https://images-na.ssl-images-amazon.com/images/I/71Z7ATk4CIL._SL1500_.jpg" width=500 height=500> -->
