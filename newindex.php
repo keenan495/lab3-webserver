@@ -37,8 +37,8 @@
             </ol>
             <br/>
 
-        Quiz: Lets see if you know your dinosaurs: 
-        <Label For="big_dino"> Please pick which dinosaur is the largest in mass? </Label>
+            Quiz: Lets see if you know your dinosaurs: 
+            <Label For="big_dino"> Please pick which dinosaur is the largest in mass? </Label>
             <select id="big_dino">
                 <option value="1">Spinosaur</option>
                 <option value="2">Stegosaurus</option>
@@ -59,14 +59,7 @@
         <br/>
         <input type="text" name="FAVdino2"/>
         <br/>
-        <button onclick= 
-        "<?php 
-            $favdino2 = htmlspecialchars($_POST['FAVdino2']);
-            $favdino1 = htmlspecialchars($_POST['FAVdino1']); 
-            $color = "black";
-            echo "$favdino2 is very common dinosaur";
-            echo "$favdino1 is terrible choice";
-        ?>">submit</button>  
+        <button onclick=" ">submit</button>  
    <br/>
 
    <Label For="small_dino"> Please pick which dinosaur is the smallest in mass? </Label>
@@ -90,7 +83,6 @@
 
         <?php 
             echo '<p>Resuts php1 </p>';
-            echo '<p>Resuts php2 </p>'; 
             $color = "black";
         ?> 
 
