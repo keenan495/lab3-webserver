@@ -82,7 +82,7 @@
              select.addEventListener('change', setDino);
              
              var select1 = document.querySelector("#small_dino")
-             select1.addEventListener('change', setsmalldino);
+             select1.addEventListener('change', setsmallDino);
                 
              function setdino(select_dino)
                 {
