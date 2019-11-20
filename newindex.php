@@ -59,7 +59,7 @@
         <br/>
         <input type="text" name="FAVdino2"/>
         <br/>
-        <button onclick=" ">submit</button>  
+      <!--  <button onclick=" ">submit</button>  -->  
    <br/>
 
    <Label For="small_dino"> Please pick which dinosaur is the smallest in mass? </Label>
@@ -93,7 +93,7 @@
              //var para = document.querySelector('p');
              select.addEventListener('change', setDino);
              
-             var select1 = document.querySelector('#small_dino')
+             var select1 = document.querySelector('small_dino')
              select.addEventListener('change', setsmalldino);
                 
              function setdino(select_dino)
