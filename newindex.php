@@ -72,10 +72,9 @@
    <button onclick="setsmalldino(small_dino)">submit</button>
    <br/>
    
-   dino: <p id="ans1"> </p>
-   
-      
-      <p id="ans2"> </p>
+   dino: 
+        <p id="ans1"> </p>
+        <p id="ans3"> </p>
         <br/>
         <p id="choiceSelected"> </p>
         <br/>
@@ -112,12 +111,11 @@
                     }                
                     
                 }  
-                document.getElementById("ans2").innerHTML= try2
+        
                
                 function setsmalldino(small_dino)
                 {
                   var choice1 = small_dino.value;
-                  document.getElementById("ans3").innerHTML = choice1;
                               
                   if(choice1 == "2") 
                     {
