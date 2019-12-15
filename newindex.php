@@ -71,7 +71,13 @@
  your Favorite dino is: 
             <?php echo $_GET['d1']; ?> and
             <?php echo $_GET['d2'];
-            `gpio blink 22`;?>
+            ?>
+
+<?php
+$output = `ls -al`;
+echo "<pre>$output</pre>";
+?>
+
 
 <br/> 
 
