@@ -5,7 +5,6 @@
     <link rel="stylesheet" href="index.css">
  <!--   <link rel="stylesheet" href="<link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">">
          <div style="border: 1px solid black">testing page version2</div> --> 
-         #include <wiringPi.h>
       //   wiringPiSetup()
     <body>
             <style> 
@@ -72,6 +71,7 @@
  your Favorite dino is: 
             <?php echo $_GET['d1']; ?> and
             <?php echo $_GET['d2'];
+             include <wiringPi.h>;
             ?>
 
 <?php
