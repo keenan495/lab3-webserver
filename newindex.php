@@ -78,7 +78,6 @@
 echo " By the way here is a list of files in my directory";
 $output = `ls -al`;
 echo "<pre>$output</pre>";
-`gpio blink 22`
 ?>
 
 
