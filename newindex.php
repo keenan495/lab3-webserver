@@ -5,7 +5,6 @@
     <link rel="stylesheet" href="index.css">
  <!--   <link rel="stylesheet" href="<link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">">
          <div style="border: 1px solid black">testing page version2</div> --> 
-      //   wiringPiSetup()
     <body>
             <style> 
             body  
@@ -71,13 +70,16 @@
  your Favorite dino is: 
             <?php echo $_GET['d1']; ?> and
             <?php echo $_GET['d2'];
-             include <wiringPi.h>;
             ?>
+
+        <br/>
 
 <?php
 echo " By the way here is a list of files in my directory";
 $output = `ls -al`;
 echo "<pre>$output</pre>";
+$output1 = `gpio blink 7`;
+echo "<pre>$output1</pre>";
 ?>
 
 
