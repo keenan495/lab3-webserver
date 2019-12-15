@@ -82,9 +82,9 @@ echo "<pre>$output</pre>";
 //echo "<pre>$output1</pre>";
 ?>
 <Label> Press button bellow to activate blinking light </Label>
- <button onclick="<?php
-$output1 = `gpio blink 7`;
-echo "<pre>$output1</pre>";
+ <button onclick="//<?php
+//$output1 = `gpio blink 7`;
+//echo "<pre>$output1</pre>";
 ?>">submit</button>
 
 <br/> 
