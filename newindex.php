@@ -71,7 +71,7 @@
  your Favorite dino is: 
             <?php echo $_GET['d1']; ?> and
             <?php echo $_GET['d2'];
-            `gpio blink 22`;?>
+          ;?>
 
 <br/> 
 
