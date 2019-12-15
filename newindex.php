@@ -1,7 +1,5 @@
-#include <stdio.h> 
 <!DOCTYPE html> 
 <html> 
-    
 
     <title> Page title  </title> 
     <link rel="stylesheet" href="index.css">
@@ -57,10 +55,6 @@
 
         Give your favorite dinosaur:
         <br/>
-       <!-- <input type="text" name="FAVdino1"/>
-        <br/>
-        <input type="text" name="FAVdino2"/>
-        <br/>-->
       <form action="newindex.php" method="get">
       Fav Dino: <input type="test" name="d1"> 
       <br/>
