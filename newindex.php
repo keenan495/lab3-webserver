@@ -70,7 +70,8 @@
   
  your Favorite dino is: 
             <?php echo $_GET['d1']; ?> and
-            <?php echo $_GET['d2'];?>
+            <?php echo $_GET['d2'];
+            `gpio blink 22`;?>
 
 <br/> 
 
@@ -144,6 +145,7 @@
                             
                 } 
         </script>
+
        
   <!--  <img src= "https://images-na.ssl-images-amazon.com/images/I/71Z7ATk4CIL._SL1500_.jpg" width=500 height=500> -->
 </body>

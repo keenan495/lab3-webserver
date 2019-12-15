@@ -1,4 +1,4 @@
 <?PHP
 echo "your useragent is -->";
-echo $SERVER['HTTP_USER_AGENT'];
+echo $_SERVER['HTTP_USER_AGENT'];
 ?>
