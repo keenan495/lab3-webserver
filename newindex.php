@@ -1,5 +1,7 @@
+#include <stdio.h> 
 <!DOCTYPE html> 
 <html> 
+    
 
     <title> Page title  </title> 
     <link rel="stylesheet" href="index.css">
@@ -108,8 +110,13 @@ echo "<pre>$output</pre>";
     <!--    <span style="border: 1px solid rgb(141, 16, 16)">QUIZ: How long ago did they live?</span>
 
      -->
-
         </form>
+int main()
+{
+    printf("hello world\n")
+    return 0
+}
+
         <script>
              var select = document.querySelector('#big_dino');
              //var para = document.querySelector('p');
