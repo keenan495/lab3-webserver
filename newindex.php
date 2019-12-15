@@ -78,8 +78,8 @@
 echo " By the way here is a list of files in my directory";
 $output = `ls -al`;
 echo "<pre>$output</pre>";
-$output1 = `gpio blink 7`;
-echo "<pre>$output1</pre>";
+//$output1 = `gpio blink 7`;
+//echo "<pre>$output1</pre>";
 ?>
 
 
@@ -149,6 +149,11 @@ echo "<pre>$output1</pre>";
                     document.getElementById("choiceSelected") = "choice1";
                             
                 } 
+
+                function LEDBlink()
+                {
+
+                }
         </script>
 
        
