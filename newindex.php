@@ -5,7 +5,8 @@
     <link rel="stylesheet" href="index.css">
  <!--   <link rel="stylesheet" href="<link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">">
          <div style="border: 1px solid black">testing page version2</div> --> 
-
+         #include <wiringPi.h>
+      //   wiringPiSetup()
     <body>
             <style> 
             body  
@@ -74,8 +75,10 @@
             ?>
 
 <?php
+echo " By the way here is a list of files in my directory";
 $output = `ls -al`;
 echo "<pre>$output</pre>";
+`gpio blink 22`
 ?>
 
 
@@ -97,14 +100,9 @@ echo "<pre>$output</pre>";
         <br/>
         <p id="choiceSelected"> </p>
         <br/>
-        <span style="border: 1px solid rgb(141, 16, 16)">QUIZ: How long ago did they live?</span>
+    <!--    <span style="border: 1px solid rgb(141, 16, 16)">QUIZ: How long ago did they live?</span>
 
-        <?php 
-            echo '<p>Resuts php1 </p>';
-            $color = "black";
-            echo 'so the $fd1 is your favorite and $fd2 is your second favorite'
-        ?> 
-        
+     -->
 
         </form>
         <script>
