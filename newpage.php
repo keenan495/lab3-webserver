@@ -5,7 +5,7 @@
   
     <body>
         <h3> WEB SERVER FINAL EXAM
-            <img src= "https://storage.googleapis.com/gd-wagtail-prod-assets/images/evolving_google_identity_2x.max-4000x2000.jpegquality-90.jpg" width=500 height=500><br/>
+        <center>    <img src= "https://storage.googleapis.com/gd-wagtail-prod-assets/images/evolving_google_identity_2x.max-4000x2000.jpegquality-90.jpg" width=500 height=500><br/></center> 
 
     <?php $server = "localhost";
             $username = "root";
@@ -14,7 +14,7 @@
      ?>
     <form action="newpage.php" method="get">
     <center>search: <input type="text" name="search"></center>  <br/> 
-    <input type="submit" value="I'm feeling lucky">
+    </center> <input type="submit" value="search">  <input type="submit" value="I'm feeling lucky"></center> 
     
         your info is:
             
