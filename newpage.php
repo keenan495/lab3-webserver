@@ -39,7 +39,7 @@
       //  }
         //else{
       //     echo "error:" .$sql . "<br>" . mysqli_error($conn);
-        }
+       // }
         mysqli_close($conn);
  ?>
 
