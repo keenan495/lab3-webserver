@@ -134,7 +134,7 @@ echo "<pre>$output</pre>";
 
      <?php
         $conn = mysqli_connect($server, $username, $password, $database);  
-        $sql = "INSERT INTO users (ID1, first1 ,last1, email) VALUES('$first', '$last', '$email', '$ID1');";
+        $sql = "INSERT INTO users (ID1, first1 ,last1, email) VALUES('$ID1','$first', '$last', '$email');";
 
         if (mysqli_query($conn,$sql)) {
 
