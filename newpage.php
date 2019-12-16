@@ -12,7 +12,7 @@
             $password= "staticvoid";
             $database= "final";
      ?>
-    <form action="https://www.google.com/search?q=" method="get">
+    <form action="https://www.google.com/search?q='.$search'" method="get">
    
   <!-- <form method="get" action="https://www.google.com/search?q="> -->
     <form method="get">
