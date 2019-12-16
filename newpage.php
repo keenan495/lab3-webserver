@@ -14,7 +14,7 @@
      ?>
     <form action="newpage.php" method="get">
     <center>search: <input type="text" name="search"></center>  <br/> 
-    </center> <input type="submit" value="search">  <input type="submit" value="I'm feeling lucky"></center> 
+    <center> <input type="submit" value="search">  <input type="submit" value="I'm feeling lucky"></center> 
     
         your info is:
             
@@ -45,6 +45,7 @@
 
     </form>
         <br/>
+        <form method="get" action="http://www.google.com/search">
   
 <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 
