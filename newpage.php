@@ -31,14 +31,14 @@
 <?php
         $conn = mysqli_connect($server, $username, $password, $database);  
         $ID1=001
-     //   $sql = "INSERT INTO googlesearches (id, search, ip) VALUES('$ID1','$search', '$ip');";
+        $sql = "INSERT INTO googlesearches (id, search, ip) VALUES('$ID1','$search', '$ip');";
 
-        if (mysqli_query($conn,$sql)) {
+      //  if (mysqli_query($conn,$sql)) {
 
-        echo "it worked";
-        }
-        else{
-           echo "error:" .$sql . "<br>" . mysqli_error($conn);
+       // echo "it worked";
+      //  }
+        //else{
+      //     echo "error:" .$sql . "<br>" . mysqli_error($conn);
         }
         mysqli_close($conn);
     ?>
