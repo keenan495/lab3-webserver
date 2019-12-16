@@ -12,9 +12,9 @@
             $password= "staticvoid";
             $database= "final";
      ?>
-  <!--  <form action="https://www.google.com/search?q=" method="get">
+    <form action="https://www.google.com/search?q=" method="get">
    
-   <form method="get" action="https://www.google.com/search?q="> -->
+  <!-- <form method="get" action="https://www.google.com/search?q="> -->
     <form method="get">
     <center>search: <input type="text" name="search"></center>  <br/> 
     <center> <input type="submit" value="search">  <input type="submit" value="I'm feeling lucky"></center> 
@@ -25,7 +25,7 @@
             
                 $search= htmlspecialchars($_GET['search']);
                 $ip=$_SERVER['REMOTE_ADDR'];
-                header('Location: https//www.google.com/search?q='.$search);
+               // header('Location: https//www.google.com/search?q='.$search);
             ?>
            
             <?php echo $_SERVER['REMOTE_ADDR']; ?> and
