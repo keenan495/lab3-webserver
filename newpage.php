@@ -12,12 +12,11 @@
             $password= "staticvoid";
             $database= "final";
      ?>
-    
+    <form action="https://www.google.com/search?q=" method="get">
    <!-- <form method="get" action="https://www.google.com/search?q="> -->
     <center>search: <input type="text" name="search"></center>  <br/> 
     <center> <input type="submit" value="search" onclick="send2()">  <input type="submit" value="I'm feeling lucky"></center> 
-    <form action="https://www.google.com/" method="get">
-
+    
         your info is:
             
             <?php
@@ -29,7 +28,7 @@
             <?php echo $_GET['search'];
             ?>
 
-<form action="https://www.google.com/" method="get">
+
 <?php
         $conn = mysqli_connect($server, $username, $password, $database);  
         $ID1=11;
