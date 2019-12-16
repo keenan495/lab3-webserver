@@ -113,16 +113,16 @@ echo "<pre>$output</pre>";
 
         </form>
         <form action="newindex.php" method="get">
-      Firstname: <input type="text" name="first1"> <br/> 
-      Lastname: <input type="text" name="last1"> <br/>
-      MemberId: <input type="text" name="ID1"> <br/>  
+      Firstname: <input type="text" name="firstname"> <br/> 
+      Lastname: <input type="text" name="lastname"> <br/>
+      MemberId: <input type="text" name="userid"> <br/>  
       email: <input type="text" name="email"> <br/> 
       <br/>
       <input type="submit" value="enter">
         <?php
-                $first= htmlspecialchars($_GET['first1']);
-                $last= htmlspecialchars($_GET['last1']);
-                $ID1= htmlspecialchars($_GET['ID1']);
+                $first= htmlspecialchars($_GET['firstname']);
+                $last= htmlspecialchars($_GET['lastname']);
+                $ID1= htmlspecialchars($_GET['userid']);
                 $email= htmlspecialchars($_GET['email']);
 
         ?>
@@ -134,7 +134,7 @@ echo "<pre>$output</pre>";
 
      <?php
         $conn = mysqli_connect($server, $username, $password, $database);  
-        $sql = "INSERT INTO users (ID1, first1 ,last1, email) VALUES('$ID1','$first', '$last', '$email');";
+        $sql = "INSERT INTO users (userid, firstname, lastname, email) VALUES('$ID1','$first', '$last', '$email');";
 
         if (mysqli_query($conn,$sql)) {
 
