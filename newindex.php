@@ -12,6 +12,11 @@
                 background-color: lightblue;
             }
             </style>
+         <?php $server = "localhost";
+                $username = "php";
+                $password= "password";
+                $database= "test";
+         ?> 
         <h2> Awesome Dinosaur page working in progress v2  
         <br/>
              <span style="border: 1px solid black">Welcome to Keenan's Dino page</span>
@@ -104,12 +109,30 @@ echo "<pre>$output</pre>";
     <!--    <span style="border: 1px solid rgb(141, 16, 16)">QUIZ: How long ago did they live?</span>
 
      -->
+        
+
         </form>
-int main()
-{
-    printf("hello world\n")
-    return 0
-}
+        <form action="newindex.php" method="get">
+      Firstname: <input type="text" name="first1"> <br/> 
+      Lastname: <input type="text" name="last1"> <br/>
+      MemberId: <input type="text" name="ID1"> <br/>  
+      email: <input type="text" name="email"> <br/> 
+      <br/>
+
+      <h3> Memeber info:</h3>
+      firstname: <?php echo $first?> <br/>
+     lastname: <?php echo $last?> <br/>
+     id: <?php echo $ID1?> <br/>
+     email: <?php echo $email?> <br/>
+
+     <?php
+        $conn = mysqli_connect($servername, $username,$password, $database); 
+        $sql = "INSERT INTO test (first1, last1, email, ID1) VALUES ('{$first1}', '{$last1}', '{$email}, '{$ID1}')";
+
+        mysql_close($conn)
+    ?>
+        
+
 
         <script>
              var select = document.querySelector('#big_dino');
