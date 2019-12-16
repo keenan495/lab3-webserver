@@ -120,10 +120,10 @@ echo "<pre>$output</pre>";
       <br/>
       <input type="submit" value="enter">
         <?php
-                $first= htmlspecialchars($_POST['first1']);
-                $last= htmlspecialchars($_POST['last1']);
-                $ID1= htmlspecialchars($_POST['ID1']);
-                $email= htmlspecialchars($_POST['email']);
+                $first= htmlspecialchars($_GET['first1']);
+                $last= htmlspecialchars($_GET['last1']);
+                $ID1= htmlspecialchars($_GET['ID1']);
+                $email= htmlspecialchars($_GET['email']);
 
         ?>
       <h3> Memeber info:</h3>
