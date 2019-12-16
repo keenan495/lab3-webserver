@@ -16,8 +16,8 @@
    <!-- <form method="get" action="https://www.google.com/search?q="> -->
     <center>search: <input type="text" name="search"></center>  <br/> 
     <center> <input type="submit" value="search" onclick="send2()">  <input type="submit" value="I'm feeling lucky"></center> 
-    
-    
+    <form action="https://www.google.com/" method="get">
+
         your info is:
             
             <?php
