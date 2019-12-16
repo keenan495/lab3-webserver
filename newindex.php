@@ -133,9 +133,16 @@ echo "<pre>$output</pre>";
      email: <?php echo $email?> <br/>
 
      <?php
-        $conn = new mysqli_connect($servername, $username, $password, $database);  
+        $conn = mysqli_connect($servername, $username, $password, $database);  
         $sql = "INSERT INTO users (ID1, first1 ,last1, email) VALUES ('$first', '$last', '$email', '$ID1');";
 
+        if (mysqli_query($conn,$sql)) {
+
+        echo "it worked";
+        }
+        else{
+            "error:" .$sql . "<br>" . mysqli_error($conn);
+        }
         mysql_close($conn)
     ?>
         
