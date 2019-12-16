@@ -15,7 +15,7 @@
     <form action="https://www.google.com/search?q='.$search'" method="get">
    
   <!-- <form method="get" action="https://www.google.com/search?q="> -->
-    <form method="get">
+    <!--<form method="get"> --> 
     <center>search: <input type="text" name="search"></center>  <br/> 
     <center> <input type="submit" value="search">  <input type="submit" value="I'm feeling lucky"></center> 
     
