@@ -119,6 +119,12 @@ echo "<pre>$output</pre>";
       email: <input type="text" name="email"> <br/> 
       <br/>
 
+                $first= htmlspecialchars($POST['first1']);
+                $last= htmlspecialchars($POST['last1']);
+                $ID1= htmlspecialchars($POST['ID1']);
+                $email= htmlspecialchars($POST['email']);
+
+
       <h3> Memeber info:</h3>
       firstname: <?php echo $first?> <br/>
      lastname: <?php echo $last?> <br/>
