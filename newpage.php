@@ -5,9 +5,9 @@
   
     <body>
         <h3> WEB SERVER FINAL EXAM
-            <img src= "" width=500 height=500><br/>
+            <img src= "https://storage.googleapis.com/gd-wagtail-prod-assets/images/evolving_google_identity_2x.max-4000x2000.jpegquality-90.jpg" width=500 height=500><br/>
 
-            <?php $server = "localhost";
+    <?php $server = "localhost";
             $username = "root";
             $password= "staticvoid";
             $database= "final";
@@ -30,7 +30,7 @@
 
 <?php
         $conn = mysqli_connect($server, $username, $password, $database);  
-        $ID1=001
+        $ID1=001;
         $sql = "INSERT INTO googlesearches (id, search, ip) VALUES('$ID1','$search', '$ip');";
 
       //  if (mysqli_query($conn,$sql)) {
@@ -41,20 +41,12 @@
       //     echo "error:" .$sql . "<br>" . mysqli_error($conn);
         }
         mysqli_close($conn);
-    ?>
+ ?>
 
     </form>
         <br/>
   
-  
-
 <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////-->
-  <script>
-      function add_time()
-    { 
-        alert();
-    }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
-    </script>
 
 
    </body>
