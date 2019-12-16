@@ -17,6 +17,7 @@
     <center>search: <input type="text" name="search"></center>  <br/> 
     <center> <input type="submit" value="search" onclick="send2()">  <input type="submit" value="I'm feeling lucky"></center> 
     
+    
         your info is:
             
             <?php
@@ -28,7 +29,7 @@
             <?php echo $_GET['search'];
             ?>
 
-<form action="https://www.google.com/search?q=" method="get">
+<form action="https://www.google.com/" method="get">
 <?php
         $conn = mysqli_connect($server, $username, $password, $database);  
         $ID1=11;
