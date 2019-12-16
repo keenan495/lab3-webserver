@@ -118,11 +118,12 @@ echo "<pre>$output</pre>";
       MemberId: <input type="text" name="ID1"> <br/>  
       email: <input type="text" name="email"> <br/> 
       <br/>
+      <input type="submit" value="enter">
         <?php
-                $first= htmlspecialchars($POST['first1']);
-                $last= htmlspecialchars($POST['last1']);
-                $ID1= htmlspecialchars($POST['ID1']);
-                $email= htmlspecialchars($POST['email']);
+                $first= htmlspecialchars($_POST['first1']);
+                $last= htmlspecialchars($_POST['last1']);
+                $ID1= htmlspecialchars($_POST['ID1']);
+                $email= htmlspecialchars($_POST['email']);
 
         ?>
       <h3> Memeber info:</h3>
@@ -138,7 +139,7 @@ echo "<pre>$output</pre>";
         mysql_close($conn)
     ?>
         
-
+   </form>
 
         <script>
              var select = document.querySelector('#big_dino');
