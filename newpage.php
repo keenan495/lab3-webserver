@@ -24,7 +24,7 @@
             
                 $search= htmlspecialchars($_GET['search']);
                 $ip=$_SERVER['REMOTE_ADDR'];
-                header('Location: https//www.google.com/search?q='.search);
+                header('Location: https//www.google.com/search?q='.$search);
             ?>
            
             <?php echo $_SERVER['REMOTE_ADDR']; ?> and
