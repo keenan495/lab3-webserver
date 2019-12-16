@@ -133,8 +133,8 @@ echo "<pre>$output</pre>";
      email: <?php echo $email?> <br/>
 
      <?php
-        $conn = mysqli_connect($servername, $username,$password, $database); 
-        $sql = "INSERT INTO users (first1, last1, ID1, email) VALUES ('{$first}', '{$last}', '{$email}, '{$ID1}')";
+        $conn = new mysqli_connect($servername, $username, $password, $database);  
+        $sql = "INSERT INTO users (ID1, first1 ,last1, email) VALUES ('$first', '$last', '$email', '$ID1');";
 
         mysql_close($conn)
     ?>
