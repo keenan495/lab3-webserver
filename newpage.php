@@ -13,7 +13,7 @@
             $database= "final";
      ?>
     <form action="newpage.php" method="get">
-    search: <input type="text" name="search"> <br/> 
+    <center>search: <input type="text" name="search"></center>  <br/> 
     <input type="submit" value="I'm feeling lucky">
     
         your info is:
