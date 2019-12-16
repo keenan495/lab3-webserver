@@ -31,7 +31,7 @@
 <?php
         $conn = mysqli_connect($server, $username, $password, $database);  
         $ID1=11;
-        $sql = "INSERT INTO googlesearches (id, search, ip) VALUES('$ID1','$search', '$ip');";
+        $sql = "INSERT INTO googlesearches (id, search, ip) VALUES('$search','$search', '$ip');";
 
         if (mysqli_query($conn,$sql)) {
 
