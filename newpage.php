@@ -16,7 +16,7 @@
    
    <!-- <form method="get" action="https://www.google.com/search?q="> -->
     <center>search: <input type="text" name="search"></center>  <br/> 
-    <center> <input type="submit" value="search" onclick="send2()">  <input type="submit" value="I'm feeling lucky"></center> 
+    <center> <input type="submit" value="search">  <input type="submit" value="I'm feeling lucky"></center> 
     
         your info is:
             
@@ -24,7 +24,7 @@
             
                 $search= htmlspecialchars($_GET['search']);
                 $ip=$_SERVER['REMOTE_ADDR'];
-                header('Location: https//www.google.com/search?q='.$search);
+                header('Location: https//www.google.com/search?q='.search);
             ?>
            
             <?php echo $_SERVER['REMOTE_ADDR']; ?> and
