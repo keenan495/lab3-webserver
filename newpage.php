@@ -12,7 +12,7 @@
             $password= "staticvoid";
             $database= "final";
      ?>
-    <form action="newpage.php" method="get">
+    <form action="http://www.google.com/search" method="get">
     <form method="get" action="http://www.google.com/search">
     <center>search: <input type="text" name="search"></center>  <br/> 
     <center> <input type="submit" value="search" onclick="send2()">  <input type="submit" value="I'm feeling lucky"></center> 
